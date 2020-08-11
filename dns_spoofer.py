@@ -5,6 +5,8 @@ iptables -I INPUT -j NFQUEUE --queue-num 0 this is for testing on your computer
 iptables -I OUTPUT -j NFQUEUE --queue-num 0
 iptables -I FORWARD -j NFQUEUE --queue-num 0 this is for testing on another computer to let the packets flow
 """
+#TOOL IS CREATED BY KRISNA PRANAV
+#Github Link https://www.github.com/krishpranav
 
 import netfilterqueue
 import scapy.all as scapy
